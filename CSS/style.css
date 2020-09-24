@@ -26,9 +26,13 @@ a:hover{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     border-radius: 20px;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
 }
 
 .img-thumbnail
 {
     background-color:black;
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+}
 }
