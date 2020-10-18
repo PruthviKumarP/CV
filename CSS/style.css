@@ -7,14 +7,28 @@ body{
 }
 
 
-a{
+a:link{
     color: black;
     text-decoration: none;
 }
 
-a:hover{
+a:visited{
     color: black;
     text-decoration: none;
+}
+
+
+a:hover{
+    color: rgb(232, 9, 91);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+a:active{
+    color: rgb(9, 20, 232);
+    text-decoration: underline;
 }
 
 .title-content{
