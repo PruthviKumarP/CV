@@ -6,7 +6,7 @@ body{
     color: black;
 }
 
-
+/* anchor tags */
 a:link{
     color: black;
     text-decoration: none;
@@ -31,6 +31,7 @@ a:active{
     text-decoration: underline;
 }
 
+/* Title */
 .title-content{
     padding-left: 20px;
     background: linear-gradient(to  right, #a8ff78, #78ffd6, #C6FFDD, #FBD786, #f7797d);
@@ -43,10 +44,15 @@ a:active{
     box-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
 
-
+/* images */
 .img-thumbnail
 {
     background-color:black;
     box-shadow: 2px 2px 8px rgb(0, 0, 0);
 }
 
+/* table heading content */
+.table_heading_padding
+{
+    padding-bottom: 28px;
+}
