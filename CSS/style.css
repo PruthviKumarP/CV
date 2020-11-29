@@ -22,6 +22,10 @@ a{
     text-decoration: none;
 }
 
+a:link, a:visited{
+  color:black; 
+{
+
 a:hover{
     color: rgb(232, 9, 91);
     font-size: 1.5rem;
