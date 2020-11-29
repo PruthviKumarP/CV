@@ -12,22 +12,11 @@ a{
     transition-property:font-size;
     transition-duration: 2s;
     transition-timing-function: linear;
-}
-
-a:link{
-    color: black;
     text-decoration: none;
 }
-
-a:visited{
-    color: black;
-    text-decoration: none;
-}
-
 
 a:hover{
     color: rgb(232, 9, 91);
-    text-decoration: none;
     font-size: 1.5rem;
     font-weight: bold;
     
