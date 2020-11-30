@@ -77,3 +77,29 @@ a:active{
 {
     transform: rotate(360deg);
 }
+
+/* skills */
+.fa-react,.fa-html5,.fa-css3-alt,.fa-bootstrap,.fa-js-square,.fa-node-js,.fa-windows,.fa-ubuntu,.fa-php,.fa-python,.fa-java,.fa-cuttlefish,.fa-plus,.fa-envira,.fa-feather,.fa-file-word,.fa-file-excel,.fa-file-powerpoint
+{
+    font-size: large;
+}
+
+.fa-html5,.fa-ubuntu,.fa-file-powerpoint{
+    color: orangered;
+    
+}
+
+.fa-bootstrap,.fa-php,.fa-cuttlefish,.fa-plus{
+    color: purple;
+}
+
+.skill-img{
+    width: 20px;
+    height: 20px;
+    transition: transform 1s;
+}
+
+.skill-img:hover{
+    transform: scale(1.5, 1.5);
+}
+
