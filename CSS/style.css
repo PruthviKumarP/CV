@@ -15,12 +15,12 @@ body{
 i{
     font-size: 1rem;
     transition-property:font-size;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transition-timing-function: linear;
 }
 
 i:hover{
-    font-size: 1.5rem;
+    transform: scale(1);
 }
 
 /* anchor tags */
@@ -71,4 +71,9 @@ a:active{
 .imgbox{
     background-color:black;
     box-shadow: 2px 2px 8px 1px rgb(0, 0, 0);
+    transition: transform 2s;
+}
+.imgbox:hover
+{
+    transform: rotate(360deg);
 }
